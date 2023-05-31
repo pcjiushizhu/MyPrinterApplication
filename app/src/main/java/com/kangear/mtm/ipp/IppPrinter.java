@@ -83,7 +83,7 @@ public class IppPrinter {
         final String raster = mContext.getCacheDir() + File.separator + "fuck.bin";
 
         final int totalpages = countPages(pdf);
-        Log.e(TAG, "pdf页数：" + totalpages);
+        Log.d(TAG, "pdf页数：" + totalpages);
         if (totalpages == 0)
             return;
 
